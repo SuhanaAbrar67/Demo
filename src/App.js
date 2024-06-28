@@ -33,7 +33,7 @@ function App() {
       <BrowserRouter>
       <Header/>
       <Routes>
-        <Route exact path="/home" element={<Home/>}/>
+        <Route exact path="/" element={<Home/>}/>
         <Route exact path="/ArrowFunction" element={<ArrowFunction/>}/>
         <Route exact path="/map" element={<Map/>}/>
         <Route exact path="/des" element={<Destructure/>}/>
@@ -48,7 +48,7 @@ function App() {
         <Route exact path="/reg" element={<Register/>}/>
         <Route exact path='/logout' element={<Logout/>}> </Route>
         <Route exact path='/login' element={<Login/>}></Route>
-        <Route exact path='/' element={<Abr/>}></Route>
+        <Route exact path='/abr' element={<Abr/>}></Route>
         
 
 

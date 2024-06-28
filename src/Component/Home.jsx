@@ -15,13 +15,14 @@ export default function Home() {
     const isAuthenticated=localStorage.getItem('token')!==null;
     useEffect(()=>{
       if(!isAuthenticated){
-        navigate('/login')
+        navigate('')
       }
     })
   return (
     <div style={style}>
-        <h7>welcome to my shopping page</h7>
-     
+        <h6>welcome to my shopping page</h6>
+      <p>welcome to git hub everyone</p>
+
     </div>
   )
 }
